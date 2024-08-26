@@ -13,7 +13,7 @@ body div, ul, footer, figure, figcaption, img, p, li {
 .header {
 	justify-content: center;
 }
-.header-central, .information, .quote, .call {
+.header-central, .information, .quote, .call, .header-conteudo-esq {
     flex-direction: column; /*divide as principais partes da pargina em colunas*/
 }
 /**/
