@@ -26,6 +26,11 @@ body div, ul, footer, figure, figcaption, img, p, li {
 	width: 80%;
 }
 
+.header-img, .header-conteudo-esq {
+	width: 600px;
+	height: 200px;
+}
+
 ul {
 	    gap: 20px;
 }
