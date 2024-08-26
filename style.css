@@ -5,6 +5,7 @@ body {
     margin: 0;
 	display: flex;
     flex-direction: column;
+	font-size: 18px;
 }
 
 body div, ul, footer, figure, figcaption, img, p, li {
@@ -29,6 +30,14 @@ body div, ul, footer, figure, figcaption, img, p, li {
 .header-img, .header-conteudo-esq {
 	width: 600px;
 	height: 200px;
+}
+
+.main-text {
+	font-size: 48px;
+}
+
+.logo {
+	font-size: 24px;
 }
 
 ul {
