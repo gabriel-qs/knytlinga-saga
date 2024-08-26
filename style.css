@@ -11,12 +11,12 @@ body div, ul, footer, figure, figcaption, img, p, li {
     display: flex;   
 }
 
-.header, .information, .quote, .call {
-    flex-direction: column;
+.header, .header-central, .information, .quote, .call {
+    flex-direction: column; /*divide as principais partes da pargina em colunas*/
 }
-
+/**/
 .header-top {
-	justify-content: space-around;
+	justify-content: space-between;
     align-items: center;
 }
 
