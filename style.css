@@ -10,14 +10,20 @@ body {
 body div, ul, footer, figure, figcaption, img, p, li {
     display: flex;   
 }
-
-.header, .header-central, .information, .quote, .call {
+.header {
+	justify-content: center;
+}
+.header-central, .information, .quote, .call {
     flex-direction: column; /*divide as principais partes da pargina em colunas*/
 }
 /**/
 .header-top {
 	justify-content: space-between;
     align-items: center;
+}
+
+.header-central {
+	width: 80%;
 }
 
 ul {
