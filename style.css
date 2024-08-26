@@ -7,7 +7,10 @@ body {
     flex-direction: column;
 }
 
-body div, ul, footer, figure, figcaption, img, p {
+body div, ul, footer, figure, figcaption, img, p, li {
     display: flex;   
+}
+
+.header, .information, .quote, .call {
     flex-direction: column;
 }
