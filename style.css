@@ -73,3 +73,15 @@ button {
 .header-conteudo-esq {
 	gap: 5px;
 }
+
+figure {
+	flex-direction: column; /*Para que o texto fique abaixo da imagem*/
+    width: 200px;
+}
+
+.information {
+	align-items: center;
+}
+figcaption {
+	text-align: center;
+}
