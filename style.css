@@ -79,9 +79,21 @@ figure {
     width: 200px;
 }
 
-.information {
-	align-items: center;
-}
 figcaption {
 	text-align: center;
 }
+
+.text-information, .information {
+	color: #1F2937;
+}
+
+.information {
+	align-items: center;
+}
+
+.text-information {
+    font-weight: 900;
+    font-size: 36px;
+}
+
+
