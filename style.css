@@ -83,7 +83,7 @@ figcaption {
 	text-align: center;
 }
 
-.text-information, .information {
+.text-information, .information, .quote {
 	color: #1F2937;
 }
 
@@ -103,12 +103,16 @@ figcaption {
 
 .quote {
 	align-items: center;
+	background-color: #E5E7EB;
+    font-size: 36px;
+
 }
 .quote-text {
 	max-width: 600px;
 }
 .quote-autor {
 	align-self: end;
+	font-weight: 600;
 }
 
 
