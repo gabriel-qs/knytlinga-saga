@@ -105,6 +105,8 @@ figcaption {
 	align-items: center;
 	background-color: #E5E7EB;
     font-size: 36px;
+	padding-top: 90px;
+    padding-bottom: 90px;
 
 }
 .quote-text {
