@@ -124,10 +124,15 @@ figcaption {
     background-color: #3882F6;
     width: 70%;
     align-self: center;
+	padding: 40px;
 }
 
 .call-textcontainer p {
 	margin: 0;
+}
+
+.call {
+	    padding: 50px;
 }
 
 
