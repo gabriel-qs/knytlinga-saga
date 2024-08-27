@@ -33,7 +33,7 @@ body div, ul, footer, figure, figcaption, img, p, li {
 
 .header-img, .header-conteudo-esq {
 	width: 600px;
-	height: 200px;
+	height: 214px;
 }
 
 .main-text {
@@ -60,6 +60,11 @@ button {
 	background: #3882F6;
     color: #E5E7E3;
     font-size: 18px;
+	width: max-content;
+	border-radius: 10px;
+    padding: 5px 20px;
+    border-style: none;
+}
 }
 
 .header-conteudo {
