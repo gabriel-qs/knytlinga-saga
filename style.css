@@ -17,7 +17,7 @@ body div, ul, footer, figure, figcaption, img, p, li {
 	background-color: #1F2937;
 	padding-bottom: 200px;
 }
-.header-central, .information, .quote, .call, .header-conteudo-esq, .quote-centre, figure {
+.header-central, .information, .quote, .call, .header-conteudo-esq, .quote-centre, figure, .call-textcontainer {
     flex-direction: column; /*divide as principais partes da pargina em colunas*/
 }
 /**/
@@ -115,6 +115,19 @@ figcaption {
 .quote-autor {
 	align-self: end;
 	font-weight: 600;
+}
+
+/*Call*/
+
+.call-center {
+	justify-content: space-around;
+    background-color: #3882F6;
+    width: 70%;
+    align-self: center;
+}
+
+.call-textcontainer p {
+	margin: 0;
 }
 
 
