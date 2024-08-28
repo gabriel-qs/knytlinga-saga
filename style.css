@@ -11,21 +11,27 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-body div, ul, footer, figure, figcaption, img, p, li {
-    display: flex;   
-}
-
 /*Faz com que os elementos com essa classe mudem sua orientacao para coluna*/
 .column {
 	flex-direction: column;
 }
 
-/*Header*/
-
 footer, .header {
 	    justify-content: center;
     	background-color: #1F2937;
 }
+
+.text-information, .information, .quote {
+	color: #1F2937;
+}
+
+body div, ul, footer, figure, figcaption, img, p, li {
+    display: flex;   
+}
+
+/*Header*/
+
+
 .header {
 	padding-bottom: 200px;
 }
@@ -106,9 +112,6 @@ figcaption {
 	text-align: center;
 }
 
-.text-information, .information, .quote {
-	color: #1F2937;
-}
 
 .img-information {
 	border: 4px solid #3882F6;
