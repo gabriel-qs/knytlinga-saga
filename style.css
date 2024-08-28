@@ -105,12 +105,17 @@ footer, .header {
     font-size: 36px;
 }
 
-figure {
+.img-information {
+	border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.information figure {
     width: 200px;
 	gap: 30px;
 }
 
-figcaption {
+.information figcaption {
 	text-align: center;
 }
 
