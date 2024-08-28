@@ -11,6 +11,10 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+body div, ul, footer, figure, figcaption, img, p, li {
+    display: flex;   
+}
+
 /*Faz com que os elementos com essa classe mudem sua orientacao para coluna*/
 .column {
 	flex-direction: column;
@@ -23,10 +27,6 @@ footer, .header {
 
 .text-information, .information, .quote {
 	color: #1F2937;
-}
-
-body div, ul, footer, figure, figcaption, img, p, li {
-    display: flex;   
 }
 
 /*Header*/
@@ -46,11 +46,6 @@ body div, ul, footer, figure, figcaption, img, p, li {
 	gap: 100px;
 }
 
-.header-img, .header-conteudo-esq {
-	width: 600px;
-	height: 214px;
-}
-
 .main-text {
 	font-size: 48px;
 	font-weight: bold;
@@ -62,16 +57,17 @@ body div, ul, footer, figure, figcaption, img, p, li {
 	color: #F9FAF8;
 }
 
-ul {
+.header-top ul {
 	    gap: 20px;
 }
 
-a {
+.header-top ul a {
 	color: #E5E7EB;
     text-decoration: none;
 }
 
-button {
+/*Refere-se aos dois botões da página*/
+.button {
 	background: #3882F6;
     color: #E5E7E3;
     font-size: 18px;
@@ -88,6 +84,12 @@ button {
 .header-conteudo-esq {
 	gap: 5px;
 }
+
+.header-img, .header-conteudo-esq {
+	width: 600px;
+	height: 214px;
+}
+
 
 /*information*/
 
